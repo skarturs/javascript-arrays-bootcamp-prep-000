@@ -10,8 +10,8 @@ var koncha2 = "Laima"
 var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 
 function addElementToBeginningOfArray(chocolateBars, koncha1){
-  return ["Philadelphia", ...chocolateBars]
+  return [koncha1, ...chocolateBars]
 }
 function destructivelyAddElementToBeginningOfArray(addElementToBeginningOfArray, koncha2){
-    return [koncha2, ...chocolateBars]
+    return [koncha2, ...addElementToBeginningOfArray]
 }
