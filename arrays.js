@@ -4,5 +4,10 @@
 //var ingredient4 = "butter"
 //var ingredient5 = "tomato"
 //var ingredient6 = "garlic"
+var candyString = "Philadelphia"
 
 var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
+
+function addElementToBeginningOfArray(chocolateBars, candyString){
+  return ["Philadelphia", ...chocolateBars]
+}
