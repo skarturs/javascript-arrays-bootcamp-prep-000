@@ -4,10 +4,14 @@
 //var ingredient4 = "butter"
 //var ingredient5 = "tomato"
 //var ingredient6 = "garlic"
-var candyString = "Philadelphia"
+var koncha1 = "M&M"
 
 var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 
-function addElementToBeginningOfArray(chocolateBars, candyString){
+function addElementToBeginningOfArray(chocolateBars, koncha1){
   return ["Philadelphia", ...chocolateBars]
+}
+function destructivelyAddElementToBeginningOfArray(chocolateBars, koncha1){
+  chocolateBars.unshift(koncha1);
+  return chocolateBars;
 }
