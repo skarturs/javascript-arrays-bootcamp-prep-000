@@ -14,12 +14,12 @@ var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 //function destructivelyAddElementToBeginningOfArray(chocolateBars, koncha1){
 //  return [koncha1, ...chocolateBars]
 //}
-var candyString = "foo"
- 
+var candyString = "foo";
+
 function addElementToBeginningOfArray(chocolateBars, candyString){
   return [candyString, ...chocolateBars];
 }
- 
+
 function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
   chocolateBars.unshift(candyString);
   return chocolateBars;
