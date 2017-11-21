@@ -4,13 +4,23 @@
 //var ingredient4 = "butter"
 //var ingredient5 = "tomato"
 //var ingredient6 = "garlic"
-var koncha1 = "foo";
+//var koncha1 = "foo";
 
 var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 
-function addElementToBeginningOfArray(chocolateBars, koncha1){
-  return [koncha1, ...chocolateBars]
+//function addElementToBeginningOfArray(chocolateBars, koncha1){
+//  return [koncha1, ...chocolateBars]
+//}
+//function destructivelyAddElementToBeginningOfArray(chocolateBars, koncha1){
+//  return [koncha1, ...chocolateBars]
+//}
+var candyString = "foo"
+ 
+function addElementToBeginningOfArray(chocolateBars, candyString){
+  return [candyString, ...chocolateBars];
 }
-function destructivelyAddElementToBeginningOfArray(chocolateBars, koncha1){
-  return [koncha1, ...chocolateBars]
+ 
+function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString){
+  chocolateBars.unshift(candyString);
+  return chocolateBars;
 }
