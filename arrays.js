@@ -11,6 +11,6 @@ var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 function addElementToBeginningOfArray(chocolateBars, koncha1){
   return [koncha1, ...chocolateBars]
 }
-function destructivelyAddElementToBeginningOfArray(addElementToBeginningOfArray, koncha1){
-    return [koncha1, ...addElementToBeginningOfArray]
+function destructivelyAddElementToBeginningOfArray(chocolateBars, koncha1){
+  return [koncha1, ...chocolateBars]
 }
