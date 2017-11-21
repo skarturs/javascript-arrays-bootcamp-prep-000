@@ -5,7 +5,7 @@
 //var ingredient5 = "tomato"
 //var ingredient6 = "garlic"
 var koncha1 = "foo";
-var koncha2 = "Laima"
+var koncha2 = "Laima";
 
 var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 
