@@ -5,13 +5,12 @@
 //var ingredient5 = "tomato"
 //var ingredient6 = "garlic"
 var koncha1 = "foo";
-var koncha2 = "Laima";
 
 var chocolateBars = ["snickers","nudred grand","kitkat","skittles"];
 
 function addElementToBeginningOfArray(chocolateBars, koncha1){
   return [koncha1, ...chocolateBars]
 }
-function destructivelyAddElementToBeginningOfArray(addElementToBeginningOfArray, koncha2){
-    return [koncha2, ...addElementToBeginningOfArray]
+function destructivelyAddElementToBeginningOfArray(addElementToBeginningOfArray, koncha1){
+    return [koncha1, ...addElementToBeginningOfArray]
 }
